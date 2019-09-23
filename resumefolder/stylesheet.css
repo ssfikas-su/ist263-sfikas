@@ -1,0 +1,58 @@
+<style>
+
+    h1 {
+        font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+        color: tomato;
+        width: 1200px;
+
+        padding: 10px;
+        margin: 15px;
+
+        
+    }
+
+    h2 {
+        background-color:#ccc;
+
+
+
+        padding: 10px;
+        margin: 15px;
+
+       
+        
+        font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+        line-height: 21px;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        font-style: normal;
+        font-weight: 200;
+        width: 100%;
+        /* represents the weight, higher the weight bolder/darker the text */
+        color: white;
+        /*
+        There are sveral other properties that can be applied to text. When the need arises Google how to
+        */
+    }
+
+    h3 {
+        font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        width: 100%;
+        color:red
+        
+    }
+
+    p {
+        color:dodgerblue
+    }
+    ul {
+        background-color: #ccc;
+        color: black;
+        border: 4px solid grey;
+    }
+    
+
+
+    
+</style>
