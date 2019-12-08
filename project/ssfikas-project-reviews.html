@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" >
-    <head>
-        <meta charset="UTF-8">
-        <title>Steve's Film Reviews</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="ssfikas-project-style.css">
-    </head>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Steve's Film Blog</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+            <link href="ssfikas-project-style.css" rel="stylesheet">    
+    
+        </head>
 
-    <body>
-        <header>
-            <h1>Film Reviews</h1>
+    <body class="container">
+        <header class="blog-header">
+            <section class="jumbotron text-center" style="margin-bottom:0">
+                    <h1>Steve's Film Blog</h1>
+                    <p>For the love of film!</p> 
+            </section>
             <nav>
-                    <a href="ssfikas-project-home.html">Home</a>
-                    <a href="ssfikas-project-reviews.html">Film Reviews</a>
-                    <a href="ssfikas-project-favorites.html">Favorites</a>
-            </nav>  
+                <div class="blog-masthead">
+                    <div class="container">
+                        <nav class="blog-nav">
+                        <a class="blog-nav-item" href="ssfikas-project-home.html">Home</a>
+                        <a class="blog-nav-item active" href="ssfikas-project-reviews.html">Reviews</a>
+                        <a class="blog-nav-item" href="ssfikas-project-favorites.html">Favorites</a>
+                        </nav>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <main>
-            <section class="reviews">
+        <main class="container">
+            <section class="row">
                 <h2>Thoughts On Films I Have Seen Recently</h2>
-                <section class="column">
-                    <article>
-                        <img src="media/Joker_(2019)_logotype.png" alt= "Joker logo">
+                <section class="col-sm-6">
+                    <article class="movie-review">
+                        <img class="review-image" src="media/Joker_(2019)_logotype.png" alt= "Joker logo">
                         <h3>Directed by Todd Phillips</h3>
                         <p>
                             Few movies have the impact that "Joker" has had in Hollywood. The film
@@ -33,8 +46,8 @@
                             characters in both cinema and comic books.
                         </p> 
                     </article>
-                    <article>
-                        <img src="media/Rushmore_movie_black_logo.png" alt="Rushmore Logo">
+                    <article class="movie-review">
+                        <img class="review-image" src="media/Rushmore_movie_black_logo.png" alt="Rushmore Logo">
                         <h3>Directed by Wes Anderson</h3>
                         <p>
                             Rushmore is the first live action Wes Anderson movie I have seen. It seems clear 
@@ -45,9 +58,10 @@
                         </p>
                     </article>
                 </section>
-                <section class="column">
-                    <article>
+                <section class="col-sm-6">
+                    <article class="movie-review">
                         <h2>Do The Right Thing</h2>
+                        <img class="review-image" src="media/Spike_Lee_at_the_2009_Tribeca_Film_Festival.jpg" alt="Spike Lee">
                         <p>
                             "Do The Right Thing" had been on my watchlist forever. I had known almost nothing about it
                             except that it was Spike Lees most acclaimed film. After watching his last feature in theaters, 
@@ -58,8 +72,9 @@
                             the entire film that ends in an emotional and intense climax that makes the film as masterful as it is. 
                         </p> 
                     </article>
-                    <article>
-                        <h2>Shaun of the Dead</h2>
+                    <article class="movie-review">
+                        <img class="review-image" src="media/Shaun_of_the_dead_logo.png" alt="Shaun of The Dead Logo">
+
                         <p>
                             I was introduced by Edgar Wright when I watched "Hot Fuzz" on Netflix in High School. "Hot Fuzz" was everything I wanted as a young film fan.
                             It was stylish, it was violent, and it was funny. Later in my life I watched other Wright films such as "Scott Pilgrim vs. The World" and 
@@ -71,5 +86,8 @@
                 </section>
             </section>
         </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

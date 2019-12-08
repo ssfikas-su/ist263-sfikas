@@ -1,61 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Steve's Favorite Films</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="ssfikas-project-style.css">
-    </head>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Steve's Film Blog</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+            <link href="ssfikas-project-style.css" rel="stylesheet">
+        </head>
 
-    <body>
-        <header>
-            <h1>Favorite Films</h1>
-            <nav>
-                    <a href="ssfikas-project-home.html">Home</a>
-                    <a href="ssfikas-project-reviews.html">Film Reviews</a>
-                    <a href="ssfikas-project-favorites.html">Favorites</a>
-            </nav>  
-        </header>
+        <body class="container">
+            <header class="blog-header">
+                <section class="jumbotron text-center" style="margin-bottom:0">
+                        <h1>Steve's Film Blog</h1>
+                        <p>For the love of film!</p> 
+                </section>
+                <nav>
+                    <div class="blog-masthead">
+                        <div class="container">
+                            <nav class="blog-nav">
+                            <a class="blog-nav-item" href="ssfikas-project-home.html">Home</a>
+                            <a class="blog-nav-item" href="ssfikas-project-reviews.html">Reviews</a>
+                            <a class="blog-nav-item active" href="ssfikas-project-favorites.html">Favorites</a>
+                            </nav>
+                        </div>
+                    </div>
+                </nav>
+            </header>
         <main>
-            <section class="favorites">
-                <h2>Thoughts On My All-Time Favorite Films</h2>
-                <article class="review">
-                    <img src="media/1600px-Blue_Velvet_glow_logo.png" alt="Blue Velvet Logo">
-                    <h3>Blue Velvet</h3>
-                    <p> Director: David Lynch <br>
-                        Year: 1986 <br>
-                        Genre: Drama/Thriller
-                    </p>
-
-                    <p>
-                        "Blue Velvet" is an incredibly powerful film. The acting, setting,
-                        score, and imagery all provide a one of a kind viewing experience that
-                        not many other films can match. "Blue Velvet" is a favorite because upon first viewing,
-                        I did not think much of it. However, hours after the credits rolled, images from the film
-                        kept reappearing in my mind, and I felt an urge to watch it again. Once watching it again, the film clicked.
-                        The reason why "Blue Velvet" is a film that infects your mind. Every image, character, and line is so essential
-                        in creating the dark and twisted world that Lynch explores.
-
-                    </p>
-                </article>
-                <article class="review">
-                    <img src="media/Evil_Dead_II_Logo.png" alt="Evil Dead 2 logo">
-                    <h3>Evil Dead 2: Dead By Dawn</h3>
-                    <p> Director: Sam Raimi <br>
-                        Year: 1987 <br>
-                        Genre: Horror/Comedy
-                    </p>
-                    <p>
-                        Sam Raimi seemed to use "Evil Dead 2" as a way to make "The Evil Dead" the way he originally intended to.
-                        The original film had a famously low budget, but grew a cult following, giving Raimi enough recognition
-                        to create "Evil Dead 2" with much more funding. Bruce Campbell returns as Ash Williams, transforming into
-                        the quippy action hero most people are familiar with when discussing the character. Evil Dead 2 is a favorite, because as a viewer,
-                        it broke all the rules of what a film could be. Part of me was repulsed by the extreme gore and another part of me wanted to laugh
-                        at how absurd the action was. I admired the extremely energetic camerawork and vivid colors. This film showed me that a film does not need
-                        to fit into one genre, but rather live in its own world, with its own logic.
-                    </p>
-                </article>
+                <section class="card-group">
+                    <article class="card">
+                        <img class="card-img-top" src="media/1600px-Blue_Velvet_glow_logo.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Blue Velvet</h5>
+                        <h5 class="card-title">Director: David Lynch</h5>
+                        <h5 class="card-title">Genre: Horror/Thriller</h5>
+                        <h5 class="card-title">Year: 1986</h5>
+                        <p class="card-text">"Blue Velvet" is an incredibly powerful film. The acting, setting,
+                                score, and imagery all provide a one of a kind viewing experience that
+                                not many other films can match. "Blue Velvet" is a favorite because upon first viewing,
+                                I did not think much of it. However, hours after the credits rolled, images from the film
+                                kept reappearing in my mind, and I felt an urge to watch it again. Once watching it again, the film clicked.
+                                The reason why "Blue Velvet" is a film that infects your mind. Every image, character, and line is so essential
+                                in creating the dark and twisted world that Lynch explores.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-img-top" src="media/Evil_Dead_II_Logo.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Evil Dead 2: Dead by Dawn</h5>
+                        <h5 class="card-title">Director: Sam Raimi</h5>
+                        <h5 class="card-title">Genre: Horror/Comedy</h5>
+                        <h5 class="card-title">Year: 1987</h5>
+                        <p class="card-text">Sam Raimi seemed to use "Evil Dead 2" as a way to make "The Evil Dead" the way he originally intended to.
+                                The original film had a famously low budget, but grew a cult following, giving Raimi enough recognition
+                                to create "Evil Dead 2" with much more funding. Bruce Campbell returns as Ash Williams, transforming into
+                                the quippy action hero most people are familiar with when discussing the character. Evil Dead 2 is a favorite, because as a viewer,
+                                it broke all the rules of what a film could be. Part of me was repulsed by the extreme gore and another part of me wanted to laugh
+                                at how absurd the action was. I admired the extremely energetic camerawork and vivid colors. This film showed me that a film does not need
+                                to fit into one genre, but rather live in its own world, with its own logic.</p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img class="card-img-top" src="media/Taxi_Driver_logo.png" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Taxi Driver</h5>
+                        <h5 class="card-title">Director: Martin Scorsese</h5>
+                        <h5 class="card-title">Genre: Drama</h5>
+                        <h5 class="card-title">Year: 1976</h5>
+                        <p class="card-text">"Taxi Driver" is one of the finest character studies in all of cinema. Scorsese is widely regarded as one of the greatest directors
+                            of all time. THis is primarily due to the fantastic collaborations between Robert De Niro and Scorses in the early 70's. But out of all those collaborations
+                            no film is as disturbing, fascinating, and mesmerizing as "Taxi Driver". The beautiful cinematography brings 1970's New York City to life and we are treated by
+                            a jaw-dropping performance from De Niro himself. 
+                        </p>
+                        </div>
+                        <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </section>
             </section>
         </main>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
