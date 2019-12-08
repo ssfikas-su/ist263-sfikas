@@ -1,65 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Steve's Film Blog</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="ssfikas-project-style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="ssfikas-project-style.css" rel="stylesheet">
+
+
     </head>
 
-    <body>
-        <header >
-            <h1>Steve's Film Blog</h1>
-            <nav>
-                <a href="ssfikas-project-home.html">Home</a>
-                <a href="ssfikas-project-reviews.html">Film Reviews</a>
-                <a href="ssfikas-project-favorites.html">Favorites</a>
-            </nav>  
-        </header>
-        <main>
-            <section class="recent">
-                <h2>Recent Activity</h2>
-                <article>
-                    <h3>Army of Darkness: Film Review</h3>
-                    <img src="media/1920px-Theevildead-logo.png" alt="Evil Dead Logo">
-                    <p>
-                        Army of Darkness, directed by Sam Raimi, is the finale in
-                        the cult classic "Evil Dead" trilogy. The famous horror trilogy,
-                        however, ends with a lighthearted and comedic action/adventure film
-                        rather than the low-budget campy horror flicks that preceded it. For this reason,
-                        Army of Darkness has little reason to be as successful as it is. It is a complete 
-                        departure from everything that makes the first two films so famous, and yet it 
-                        furthers the lore and the character of Ash, giving them the end they deserve. Packed with
-                        slapstick comedy and one-liners, Army of Darkness is a fun watch for sure. 
-                    </p>
+    <body class="container">
+        <header class="blog-header">
+                <section class="jumbotron text-center" style="margin-bottom:0">
+                        <h1>Steve's Film Blog</h1>
+                        <p>For the love of film!</p> 
+                </section>
+                <nav>
+                    <div class="blog-masthead">
+                        <div class="container">
+                            <nav class="blog-nav">
+                            <a class="blog-nav-item active" href="ssfikas-project-home.html">Home</a>
+                            <a class="blog-nav-item" href="ssfikas-project-reviews.html">Reviews</a>
+                            <a class="blog-nav-item" href="ssfikas-project-favorites.html">Favorites</a>
+                            </nav>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        <section class="row">
+            <main class="col-sm-8 blog-main">
+                <section>
+                    <h2>Recent Activity</h2>
+                    <article class="blog-post">
+                        <h3 class="blog-post-title">Army of Darkness: Film Review</h3>
+                        <p>
+                            Army of Darkness, directed by Sam Raimi, is the finale in
+                            the cult classic "Evil Dead" trilogy. The famous horror trilogy,
+                            however, ends with a lighthearted and comedic action/adventure film
+                            rather than the low-budget campy horror flicks that preceded it. For this reason,
+                            Army of Darkness has little reason to be as successful as it is. It is a complete 
+                            departure from everything that makes the first two films so famous, and yet it 
+                            furthers the lore and the character of Ash, giving them the end they deserve. Packed with
+                            slapstick comedy and one-liners, Army of Darkness is a fun watch for sure. 
+                        </p>
+                        <small class="text-muted">Last updated 3 mins ago</small>
 
-                </article>
-                <article>
-                    <h3>David Lynch: My Favorite Director</h3>
-                    <img src="media/David_Lynch_(1990).jpg" alt= "David Lynch">
-                    <p>If you have ever heard something referred to as "Lynchian", chances are 
-                        it's very weird. David Lynch's work thrives in the world of weird. 
-                        Lynch has mastered the art of surrealist cinema, beginning his career with the 
-                        cult classic horror film "Eraserhead", and creating a worldwide phenomenon with his 
-                        sensational TV series "Twin Peaks", Lynch has cemented himself as a master of cinema and his films
-                        have had a profound impact on me throughout the years. Every time I watch a Lynch film, I am in awe of
-                        the incredibly imagery and the disturbingly relevant themes consistent in all of his work.
+                    </article>
+                    <article class="blog-post">
+                        <h3 class="blog-post-title">David Lynch: My Favorite Director</h3>
+                        <p>If you have ever heard something referred to as "Lynchian", chances are 
+                            it's very weird. David Lynch's work thrives in the world of weird. 
+                            Lynch has mastered the art of surrealist cinema, beginning his career with the 
+                            cult classic horror film "Eraserhead", and creating a worldwide phenomenon with his 
+                            sensational TV series "Twin Peaks", Lynch has cemented himself as a master of cinema and his films
+                            have had a profound impact on me throughout the years. Every time I watch a Lynch film, I am in awe of
+                            the incredibly imagery and the disturbingly relevant themes consistent in all of his work.
+                        </p>
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </article>
+                    
+                </section>
+            </main>
+            <aside class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-inset">
+                    <h4>About Steve</h4>
+                    <p>
+                        Steve is a student studying Information Management and Technology at Syracuse University.
+                        Steve has maintained a strong passion for film and entertainment since college. He was initially drawn 
+                        to film by films directed by Quentin Tarantino and classic action films. Later in his High School career, Steve was
+                        introduced to director David Lynch through the TV show "Twin Peaks". This stregnthened his passion for film
+                        even further and it introduced him to a wider world of film. Steve had always written about film for fun
+                        and had always wanted to share some of his thoughts with the world. This blog provides Steve the platform to 
+                        explore his hobby and share his favorite films with the world. 
                     </p>
-                </article>
-            </section>
-        </main>
-        <footer>
-            <h2>About Steve</h2>
-            <p>
-                Steve is a student studying Information Management and Technology at Syracuse University.
-                Steve has maintained a strong passion for film and entertainment since college. He was initially drawn 
-                to film by films directed by Quentin Tarantino and classic action films. Later in his High School career, Steve was
-                introduced to director David Lynch through the TV show "Twin Peaks". This stregnthened his passion for film
-                even further and it introduced him to a wider world of film. Steve had always written about film for fun
-                and had always wanted to share some of his thoughts with the world. This blog provides Steve the platform to 
-                explore his hobby and share his favorite films with the world. 
-            </p>
-        </footer>
+                </div>
+            </aside>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 
 </html>
